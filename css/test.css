@@ -1,0 +1,931 @@
+/*zorgt er voor dat border bij height en width worden genomen*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #CCC;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2, h4{
+    width: 54vw;
+    font-size: 1.3em;
+}
+
+ p{
+    padding-left: 1%;
+    width: 55vw;
+    font-size: 1.3em;
+}
+
+body > a > img{
+    display: block;
+    position: fixed;
+    width: 0;
+    height: 0;
+}
+
+#user{
+    position: fixed;
+    width: 5vw;
+    top: -2%;
+    right: 2%;
+    z-index: 15;
+    color: white;
+    fill: currentColor;
+}
+
+#hamburger{
+   display: none;
+}
+
+
+body > header > h1{
+    width: 100vw;
+    background-color: #FC0;
+    color: black;
+    position: fixed;
+    opacity: 0.8;
+    margin-top: -6%;
+    z-index: 5;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+body > header > p{
+    width: 70vw;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+header > img{
+    position: fixed;
+    width: 17vw;
+    top: 1.5%;
+    left: 3%;
+    z-index: 999;
+    margin-top: 0;
+}
+
+img{
+    width: 50vw;
+    display: block;
+    margin: 2% auto;
+}
+
+nav{
+    opacity: 0.8;
+}
+
+nav > ul > li{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1%;
+    border-color: white;
+    padding: 1% 1%;
+    text-align: center;
+    margin: 1% 2%;
+    width: 15vw;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+nav > ul > li:hover{
+    background-color: #FC0;
+}
+
+a:link{
+    color: black;
+}
+
+p + h4{
+    margin: 2% auto;
+}
+
+section li:first-child{
+    margin: 2% 2%;
+}
+
+
+section > h2 > a:link{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+em{
+    display: block;
+    background-color: dodgerblue;
+    margin: 2% auto;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+    width: 55vw;
+}
+
+main{
+    background-color: white;
+    width: 60vw;
+    margin-left: 2.5%;
+    box-shadow: 0.625em 0.625em 0.625em 0em rgba(0,0,0,0.75);
+}
+
+.related{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.related > article > header > p{
+    width: 95%;
+    padding-top: 10%;
+    color: white;
+}
+
+.related > article{
+    width: 30vw;
+    background-color: rgba(19,64,245,0.75);
+}
+
+.related > h2{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: -3%;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+
+section > article{
+    width: 18vw;
+    margin: 4% 0.85%;
+    background-color: white;
+    padding: 1%;
+    box-shadow: 0.625em 0.625em 0.625em 0em rgba(0,0,0,0.75);
+}
+
+
+section h3{
+    margin-left: 5%;
+    padding-top: 3%;
+    font-size: 1.5em;
+    color: black;
+}
+
+.related h3{
+    color: white;
+}
+
+section > article > p{
+    width: 15vw;
+}
+
+section.related > article > p{
+    color: white;
+}
+
+.related a:link{
+    color: white;
+}
+
+aside{
+    float: right;
+    position: absolute;
+    width: 30vw;
+    top: 30%;
+    right: 5%;
+}
+
+aside > section > article{
+    width: 30vw;
+    background-color: white;
+    padding: 2% 2%
+}
+
+aside > section > article > p{
+    width: 25vw;
+    font-size: 1.3em;
+}
+
+aside > h2{
+    font-size: 2em;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 2%;
+}
+
+body > footer{
+    background-color: #FC0;
+}
+
+
+
+footer > section{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 18vw;
+}
+
+footer > section > p{
+    width: 15vw;
+}
+
+aside > section > article > footer > p{
+    display: block;
+    width: 25vw;
+}
+
+/*Formulier pagina*/
+
+fieldset{
+    width: 50vw;
+}
+
+#project, #stage{
+    width: 55vw;
+}
+
+textarea{
+    width: 30vw;
+    margin-top: 2%;
+}
+
+dl{
+    color: white;
+}
+
+section > h4{
+    color: white;
+    padding: 3% 0;
+}
+
+
+dl dt{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 1% auto;
+    color: white;
+}
+
+  label > em{
+        width: 15vw;
+        float: right;
+        padding: 1% auto;
+        margin: 0 auto;
+    }
+
+label{
+    width: 50vw;
+    float: left;
+}
+
+   label > span, input{
+        display: block;
+        width: 30vw;
+        float: left;
+        margin: 3% auto;
+    }
+
+label > input{
+        display: block;
+        position: relative;
+        width: 20vw;
+    }
+
+label > span{
+    width: 10vw;
+}
+
+#project > label > span{
+        display: block;
+        margin: 3% auto;
+        width: 20vw;
+        float: left;
+}
+
+#project > label > input{
+        position: relative;
+        width: 30vw;
+        float: left;
+}
+
+section dl dd{
+    width: 30vw;
+
+}
+
+#search input{
+    width: 15vw;
+}
+
+body > header > form{
+    display: none;
+}
+
+button{
+    position: absolute;
+    width: 5vw;
+    top: 10vw;
+    right: 10vw;
+}
+
+form > input{
+    width: 50vw;
+    padding: 5% auto ;
+    margin: 2% 8%;
+
+}
+
+/*CSS voor schermen met maximale width van 480px*/
+@media only screen and (max-width: 480px) {
+
+    p{
+        padding-left: 1%;
+        width: 90vw;
+        font-size: 1.3em;
+    }
+
+    h1, h2, h3, h4{
+        position: relative;
+        margin: 2% auto;
+        padding-left: 1%;
+        width: 90vw;
+    }
+
+    em{
+        width: 80vw;
+    }
+
+    body > header > h1{
+        width: 100vw;
+        background-color: #FC0;
+        color: black;
+        position: fixed;
+        margin-top: -2%;
+        margin-left: -2%;
+        opacity: 0.8;
+        font-size: 2em;
+    }
+
+    body > header > p{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    body > a > img{
+        position: fixed;
+        bottom: 0.5%;
+        right: 0.5%;
+        width: 10vw;
+        height: 10vw;
+        z-index: 3;
+    }
+
+    nav > ul > li{
+        border-style: solid;
+        border-width: 1%;
+        padding: 1% 1%;
+        text-align: center;
+        margin: 1% auto;
+        width: 75vw;
+        background-color: #FC0;
+    }
+
+    nav{
+        margin: 5% auto;
+        background-color: #CCC;
+    }
+
+    nav > ul > li:hover{
+        background-color: aqua;
+        opacity: 0.5;
+    }
+
+    main{
+        display: block;
+        float: none;
+        width: 90vw;
+    }
+
+    main > article{
+        background-color: #CCC;
+    }
+
+    main > article > header{
+        background-color: white;
+        margin: 2% auto;
+        width: 95vw;
+    }
+
+    header, section{
+        padding: 2%;
+    }
+
+    article > section{
+        background-color: white;
+    }
+
+    article > footer{
+        margin-top: -5%;
+    }
+
+    footer{
+        margin-top: -2%;
+        padding-bottom: 2%;
+    }
+
+    img{
+        width: 60vw;
+    }
+
+    .related{
+        display: block;
+        background-color: #CCC;
+        margin: 5% auto
+    }
+
+    .related > article{
+        display: block;
+        width: 90vw;
+        padding-bottom: 2%;
+        border-style: solid;
+        border-color: white;
+        border-bottom: solid #ccc;
+        margin: 0 auto;
+        background-color:
+    }
+
+    .related > h2{
+        position: relative;
+
+    }
+
+    .related > article > p{
+        width: 80vw;
+    }
+
+    aside{
+        width: 90vw;
+        float: none;
+        position: relative;
+    }
+
+    aside > section{
+        display: block;
+        width: 95vw;
+        margin: 2% 2.5%;
+        margin-bottom: 5%;
+        background-color: #CCC;
+
+    }
+
+    aside > section > article{
+        display: block;
+        width: 90vw;
+        position: relative;
+        padding-bottom: 2%;
+        border-style: solid;
+        border-color: white;
+        border-bottom: solid #ccc;
+    }
+
+    aside > section > article > p{
+        width: 80vw;
+    }
+
+    aside > section > article > footer{
+        width: 75vw;
+
+    }
+
+    aside > section > article > footer > p{
+        display: block;
+        width: 70vw;
+        float: left;
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: -3%;
+    }
+
+    #sitemap, #contact, #search, #about{
+        display: block;
+        width: 90vw;
+        background-color: #FC0;
+        border-style: solid;
+        border-color: #FC0;
+        border-bottom: thick solid #ccc;
+        margin-top: 3%;
+    }
+
+    #contact{
+        margin-top: 8%;
+    }
+
+    footer > section > p{
+        width: 80vw;
+
+    }
+
+    #sitemap {
+        display: none;
+    }
+
+    p[id="feedback"]{
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    /*FORMULIER PAGINA*/
+
+    main{
+        width: 95vw;
+    }
+
+    main > p{
+        margin-bottom: 2%;
+    }
+
+    fieldset{
+        width: 90vw;
+    }
+
+    label > em{
+        width: 15vw;
+        float: right;
+        padding: 1% auto;
+        margin-right: -60%;
+    }
+
+    textarea{
+        width: 60vw;
+    }
+
+    label > span, input{
+        display: block;
+        width: 30vw;
+        float: left;
+        margin: 3% auto;
+    }
+
+    label > input{
+        display: block;
+        position: relative;
+        width: 30vw;
+    }
+
+
+    label > textarea{
+        width: 30vw;
+        margin: 2% auto;
+        float: left;
+        position: relative;
+    }
+
+
+    #project > label > span{
+        display: block;
+        margin: 3% auto;
+        width: 50vw;
+        float: left;
+    }
+
+    #project > label > input{
+        position: relative;
+        width: 60vw;
+        float: left;
+    }
+
+    fieldset > label > input{
+        width: 60vw;
+    }
+
+    fieldset > label{
+        margin: 2% auto;
+        float: left;
+    }
+
+    #stage > fieldset > label{
+        width: 30vw;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 480px){
+
+    p{
+        width: 80vw;
+        font-size: 1.2em;
+    }
+
+    em{
+        width: 70vw;
+    }
+
+    #user{
+        position: fixed;
+        width: 7vw;
+        top: -1%;
+        right: 12%;
+        z-index: 15;
+        color: white;
+        fill: currentColor;
+    }
+
+    #hamburger{
+        display: block;
+        position: fixed;
+        width: 6vw;
+        top: 1%;
+        right: 2%;
+        z-index: 15;
+    }
+
+
+    body > a > img{
+        position: fixed;
+        bottom: 0.5%;
+        right: 0.5%;
+        width: 5vw;
+        height: 5vw;
+        z-index: 3;
+    }
+
+    header > img{
+        width: 21vw;
+        margin-top: 1%;
+    }
+
+    body > header > h1{
+        width: 100vw;
+        height: 10vw;
+        background-color: #FC0;
+        margin-bottom: 5%;
+        padding: 3%;
+        position: fixed;
+        margin-top: -12%;
+        opacity: 0.8;
+        z-index: 5;
+        font-size: 130%;
+        padding-left: 7%;
+    }
+
+    body > header > p{
+        margin-top: 12%;
+        text-align: center;
+    }
+
+    nav > ul > li{
+        width: 75vw;
+        border-style: solid;
+        border-width: 1%;
+        padding: 1% auto;
+        text-align: center;
+        margin: 1% auto;
+        background-color: #FC0;
+    }
+
+
+    header > nav{
+        padding: 3% auto;
+        background-color: #CCC;
+    }
+
+   article  section{
+        background-color: white;
+
+    }
+
+
+    nav > ul > li:hover{
+        background-color: aqua;
+    }
+
+
+    main{
+        float: none;
+        display: block;
+        width: 80vw;
+    }
+
+    main > article{
+        background-color: #CCC;
+    }
+     main > article > footer{
+        background-color: white;
+        margin: 0 auto;
+        width: 95vw;
+        border: 1% solid;
+    }
+
+
+    img{
+        width: 60vw;
+        margin: 2% auto;
+    }
+
+    section{
+        padding: 2%;
+    }
+
+    main header{
+        background-color: white;
+    }
+
+    article > header{
+        padding: 4% auto;
+    }
+
+    footer{
+        margin-top: -3%;
+        padding-bottom: 2%;
+        padding-top: -2%;
+    }
+
+    h1, h2, h3, h4{
+        margin: 2% auto;
+        padding-left: 1%;
+        width: 80vw;
+        padding-top: -2%;
+    }
+
+    .related{
+        display: block;
+        background-color: #CCC;
+    }
+
+    .related > h2{
+        color: #FC0;
+        padding: 1%;
+    }
+
+     .related > article{
+        display: block;
+        width: 90vw;
+        padding-bottom: 2%;
+        border-style: solid;
+        border-color: white;
+        border-bottom: solid #ccc;
+    }
+
+    .related > article > p{
+        width: 75vw;
+        margin-left: 5%;
+        padding-top: 0;
+    }
+
+    .related > article > header > p{
+        padding-top: 0;
+    }
+
+    article > h3{
+        width: 75vw;
+        margin-bottom: 5%;
+        color: black;
+    }
+
+
+    section > h2 > a:link{
+        text-decoration: none;
+        color: #FC0;
+    }
+
+    aside{
+        width: 90vw;
+        margin-left: 5%;
+        float: none;
+        position: relative;
+        background-color: #CCC;
+    }
+
+    aside > section{
+        display: block;
+        width: 95vw;
+        margin: 2% 2.5%;
+        margin-bottom: 5%;
+        }
+
+    aside > section > article{
+        display: block;
+        width: 90vw;
+        position: relative;
+        padding-bottom: 2%;
+        border-style: solid;
+        border-color: white;
+        border-bottom: solid #ccc;
+    }
+
+    aside > section > article > p{
+        width: 80vw;
+    }
+
+    aside > section > article > footer{
+        width: 75vw;
+
+    }
+
+    aside > section > article > footer > p{
+        display: block;
+        width: 70vw;
+        float: none;
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: -3%;
+    }
+
+/*
+    aside > section > article > footer > p{
+        display: block;
+        width: 40vw;
+        float: left;
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: -3%;
+    }
+*/
+
+
+      #sitemap, #contact, #search, #about, #credits{
+        width: 95%;
+        background-color: #FC0;
+        border-color: #FC0;
+        border-style: solid;
+        border-bottom: thick solid #ccc;
+    }
+
+    #sitemap{
+        display: none;
+    }
+
+    footer > section{
+        width: 90vw;
+        display: block;
+    }
+
+    footer > section > p{
+        width: 75vw;
+    }
+
+    section > h2{
+        width: 75vw;
+    }
+
+    /*FORUMULIER pagina*/
+
+    main{
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    main + p{
+        margin-bottom: 2%;
+    }
+
+    section h4{
+        margin: 0 auto;
+    }
+
+    section dl dd{
+        width: 90vw;
+    }
+
+    dl dt{
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 1% auto;
+    }
+
+    fieldset{
+        display: inline-block;
+        width: 10vw;
+    }
+
+    form{
+        display: inline-block
+    }
+
+
+}
+
+
+
+
+
+
